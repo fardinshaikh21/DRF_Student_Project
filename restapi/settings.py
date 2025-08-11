@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "students",
     "employees",
     "customers",
+    
 ]
 
 MIDDLEWARE = [
@@ -138,3 +139,4 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.TokenAuthentication',
     ]
 }
+
