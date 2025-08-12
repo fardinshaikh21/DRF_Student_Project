@@ -8,6 +8,7 @@ from rest_framework import status
 from django.shortcuts import get_object_or_404
 from .paginations import CustomerPagination
 from .filters import CustomerFilter
+from rest_framework.filters import SearchFilter,OrderingFilter
 
 
 # Mixins Class base Views
@@ -110,6 +111,10 @@ class Customers(viewsets.ModelViewSet):
 class Blogs(generics.ListCreateAPIView):
     queryset = Blog.objects.all()
     serializer_class = BlogSerializer
+    filter_backends = [SearchFilter,OrderingFilter]
+    #search_fields = ['^title'] # first started title search
+    search_fields = ['title','desc']
+    Ordering_fileds = ['cid']
 
 class Comments(generics.ListCreateAPIView):
     queryset = Comment.objects.all()
