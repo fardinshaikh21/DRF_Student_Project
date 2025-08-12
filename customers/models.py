@@ -18,7 +18,7 @@ class Blog(models.Model):
         return self.title 
     
 class Comment(models.Model):
-    blog = models.ForeignKey(Blog,on_delete=models.CASCADE)    
+    blog = models.ForeignKey(Blog,on_delete=models.CASCADE,related_name='comments')    
     comment = models.CharField(max_length=100)
 
     def __str__(self):
