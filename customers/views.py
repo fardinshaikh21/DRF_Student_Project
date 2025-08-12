@@ -7,6 +7,8 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.shortcuts import get_object_or_404
 from .paginations import CustomerPagination
+from .filters import CustomerFilter
+
 
 # Mixins Class base Views
 '''
@@ -100,7 +102,9 @@ class Customers(viewsets.ViewSet):
 class Customers(viewsets.ModelViewSet):
     queryset = Customer.objects.all()
     serializer_class = CustomerSerializer
-    pagination_class = CustomerPagination
+    #pagination_class = CustomerPagination # Filter is Working After Comment this
+    #filterset_fields = ['cname']
+    filterset_class = CustomerFilter
 
 
 class Blogs(generics.ListCreateAPIView):
