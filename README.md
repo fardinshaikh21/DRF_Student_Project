@@ -1,3 +1,1 @@
-bajsjjdkdkdssffbbahdhbajbagsvafs
-
 # DRF_Student_Project
