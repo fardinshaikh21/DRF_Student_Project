@@ -1,0 +1,99 @@
+── .gitignore
+├── README.md
+├── customers
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-312.pyc
+    │   ├── admin.cpython-312.pyc
+    │   ├── apps.cpython-312.pyc
+    │   ├── filters.cpython-312.pyc
+    │   ├── models.cpython-312.pyc
+    │   ├── paginations.cpython-312.pyc
+    │   ├── serializer.cpython-312.pyc
+    │   ├── urls.cpython-312.pyc
+    │   └── views.cpython-312.pyc
+    ├── admin.py
+    ├── apps.py
+    ├── filters.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── 0002_blogs_comments.py
+    │   ├── 0003_rename_blogs_blog_rename_comments_comment_and_more.py
+    │   ├── 0004_alter_comment_blog.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │   │   ├── 0001_initial.cpython-312.pyc
+    │   │   ├── 0002_blogs_comments.cpython-312.pyc
+    │   │   ├── 0003_rename_blogs_blog_rename_comments_comment_and_more.cpython-312.pyc
+    │   │   ├── 0004_alter_comment_blog.cpython-312.pyc
+    │   │   └── __init__.cpython-312.pyc
+    ├── models.py
+    ├── paginations.py
+    ├── serializer.py
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+├── db.sqlite3
+├── employees
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-312.pyc
+    │   ├── admin.cpython-312.pyc
+    │   ├── apps.cpython-312.pyc
+    │   ├── models.cpython-312.pyc
+    │   ├── serializer.cpython-312.pyc
+    │   ├── urls.cpython-312.pyc
+    │   └── views.cpython-312.pyc
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │   │   ├── 0001_initial.cpython-312.pyc
+    │   │   └── __init__.cpython-312.pyc
+    ├── models.py
+    ├── serializer.py
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+├── manage.py
+├── restapi
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-312.pyc
+    │   ├── settings.cpython-312.pyc
+    │   ├── urls.cpython-312.pyc
+    │   └── wsgi.cpython-312.pyc
+    ├── asgi.py
+    ├── settings.py
+    ├── urls.py
+    └── wsgi.py
+└── students
+    ├── __init__.py
+    ├── __pycache__
+        ├── __init__.cpython-312.pyc
+        ├── admin.cpython-312.pyc
+        ├── apps.cpython-312.pyc
+        ├── models.cpython-312.pyc
+        ├── serializers.cpython-312.pyc
+        ├── urls.cpython-312.pyc
+        └── views.cpython-312.pyc
+    ├── admin.py
+    ├── apps.py
+    ├── migrations
+        ├── 0001_initial.py
+        ├── __init__.py
+        └── __pycache__
+        │   ├── 0001_initial.cpython-312.pyc
+        │   └── __init__.cpython-312.pyc
+    ├── models.py
+    ├── serializers.py
+    ├── templates
+        ├── add.html
+        ├── index.html
+        └── update.html
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
