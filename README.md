@@ -1,3 +1,1 @@
-asxszsmskalqwassdswwsqwasswsdsxdcsqwsasqwsasqwesassdsddbshdfafs
-
 # DRF_Student_Project
