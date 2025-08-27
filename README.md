@@ -1,3 +1,1 @@
-nndddvafsndkwwnndmmsbsnjshhsd
-bsb
 # DRF_Student_Project
